@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 
+      Reduced padding from 24dp to 10dp to increase the logo size.
+      This expands the logo to occupy a larger portion of the icon area (approx 88dp x 88dp),
+      addressing the "too small" issue while keeping it centered.
+    -->
+    <item
+        android:drawable="@drawable/civicwatch_full_logo"
+        android:top="10dp"
+        android:bottom="4dp"
+        android:left="4dp"
+        android:right="4dp" />
+</layer-list>
